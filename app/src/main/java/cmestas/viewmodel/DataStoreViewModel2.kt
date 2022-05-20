@@ -1,15 +1,14 @@
-package com.aangles.cmestas.myquispeyn.viewmodel
+package cmestas.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.aangles.cmestas.myquispeyn.repository.DataStorePreferenceRepository
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
-class DataStoreViewModel2 (
-    private val dataStorePreferenceRespository: DataStorePreferenceRepository
+class DataStoreViewModel2(
+    private val dataStorePreferenceRespository: cmestas.repository.DataStorePreferenceRepository
 ): ViewModel(){
 
     private val _professionalSchool = MutableLiveData("")

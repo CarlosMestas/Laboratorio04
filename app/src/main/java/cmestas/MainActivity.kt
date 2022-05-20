@@ -1,4 +1,4 @@
-package com.aangles.cmestas.myquispeyn
+package cmestas
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -24,10 +24,10 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.aangles.cmestas.myquispeyn.repository.DataStorePreferenceRepository
-import com.aangles.cmestas.myquispeyn.ui.theme.Laboratorio04Theme
-import com.aangles.cmestas.myquispeyn.viewmodel.DataStoreViewModel
-import com.aangles.cmestas.myquispeyn.viewmodel.DataStoreViewModel2
+import cmestas.repository.DataStorePreferenceRepository
+import cmestas.theme.Laboratorio04Theme
+import cmestas.viewmodel.DataStoreViewModel
+import cmestas.viewmodel.DataStoreViewModel2
 import kotlinx.coroutines.launch
 import java.lang.IllegalStateException
 

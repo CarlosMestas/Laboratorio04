@@ -1,4 +1,4 @@
-package com.aangles.cmestas.myquispeyn.repository
+package cmestas.repository
 
 import android.content.Context
 import androidx.datastore.core.DataStore

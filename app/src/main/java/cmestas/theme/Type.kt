@@ -1,4 +1,4 @@
-package com.aangles.cmestas.myquispeyn.ui.theme
+package cmestas.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
